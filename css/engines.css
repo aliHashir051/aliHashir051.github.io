@@ -1,0 +1,100 @@
+#game-engines
+{
+	background-color: #DCDEE2;
+	color: #000;
+}
+
+
+#game-engines .featured
+{
+	display: block;
+	position: relative;
+	top: -3rem;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	
+	height: 38rem;
+	z-index: -1;
+	background-image: url("../img/blocks.jpg");
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Page nav */
+#game-engines #page-nav
+{
+	display: flex;
+	align-items: center;
+}
+
+#game-engines #page-nav ul
+{
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	flex-flow: row wrap;
+
+	margin: 0 auto;
+	padding: 0px;
+	margin-top: -50px;
+	min-height: 48px;
+
+	width: 100%;
+	background-color: #202338;
+}
+
+#game-engines #page-nav ul li
+{
+	list-style-type: none;
+  	white-space: nowrap;
+	flex: 0 1 auto; 
+  	margin: 0;
+}
+
+#game-engines #page-nav ul li a 
+{
+	display: block;
+	padding: 13px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	letter-spacing: 0.15rem;
+	font-size: 0.75rem;
+	line-height: 1.4;
+	font-weight: 300;
+	color: #fff;
+}
+
+#game-engines #page-nav ul li a:hover
+{
+	border-bottom: 5px solid #00A5E0;
+}
+
+
+/* Content */
+.content
+{
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 3rem;
+
+	letter-spacing: 0.15rem;
+	text-align: justify;
+}
+
+/* Content Title */
+.content h2
+{
+	font-size: 3rem;
+}
+
+.content hr
+{
+	margin-top: 3rem;
+}
+
+
+
+

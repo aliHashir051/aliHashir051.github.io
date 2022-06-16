@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+	<!-- Created by Harold Sikkema, with inspiration from cbc.ca -->
+	<meta charset="UTF-8">
+	<title>Game Dev: History</title>
+	<link type="text/css" href="css/normalize.css" rel="stylesheet">
+	<link type="text/css" href="css/styles.css" rel="stylesheet">
+	<link type="text/css" href="css/history.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="history">
+	<header>
+		<nav id="navigation" aria-label="homepage navigation button">
+			<a class="title" href="/">
+				<span>
+					Game Development
+				</span>
+
+			</a>
+			
+		<nav id="subNav" aria-label="website navigation">
+			<ul>
+				<li><a href="./history.html"> History </a></li>
+				<li><a href="./game-engines.html">Game Engines</a></li>
+				<li><a href="./credits.html">Credits</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<section class="featured" aria-label="page title card">
+		
+		<section class="primary-text">
+			<section class="gem">
+				Intrigue
+			</section>
+			
+			Learn more about the history of game engines
+		</section>
+
+	</section>
+
+	<nav id="page-nav" aria-label="in-page navigation bar">
+		<ul>
+			<li><a href="#unreal-title"> History Of Unreal Engine </a></li>
+			<li><a href="#unity-title"> History Of Unity Game Engine </a></li>
+			<li><a href="#godot-title"> History Of Godot Game Engine </a></li>
+		</ul>
+	</nav>
+
+	<!-- Text here retreived from original wikipedia article https://en.wikipedia.org/wiki/Unreal_Engine-->
+	<section class="content" aria-label="page main content">
+		<h2 id="unreal-title"> History Of Unreal Engine</h2>
+		<p>
+			The first-generation Unreal Engine was developed by <a href="/wiki/Tim_Sweeney_(game_developer)" title="Tim Sweeney (game developer)">Tim Sweeney</a>, the founder of
+			<a href="/wiki/Epic_Games" title="Epic Games">Epic Games</a>.<sup id="cite_ref-foreword_4-0" class="reference"><a href="#cite_note-foreword-4">[4]</a></sup> Having created editing tools for his shareware games
+			<i><a href="/wiki/ZZT" title="ZZT">ZZT</a></i> (1991) and <i><a href="/wiki/Jill_of_the_Jungle" title="Jill of the Jungle">Jill of the Jungle</a></i> (1992),
+			<sup id="cite_ref-gamasutra2009_5-0" class="reference"><a href="#cite_note-gamasutra2009-5">[5]</a></sup> Sweeney began writing the engine in 1995 for the production of a game that would later become a 
+			<a href="/wiki/First-person_shooter" title="First-person shooter">first-person shooter</a> known as <i><a href="/wiki/Unreal_(1998_video_game)" title="Unreal (1998 video game)">Unreal</a></i>.
+			<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup><sup id="cite_ref-gamasutra_7-0" class="reference"><a href="#cite_note-gamasutra-7">[7]</a></sup>
+			<sup id="cite_ref-keighley_8-0" class="reference"><a href="#cite_note-keighley-8">[8]</a></sup> After years in development, it debuted with the game's release in 1998,
+			<sup id="cite_ref-wiredUE4_9-0" class="reference"><a href="#cite_note-wiredUE4-9">[9]</a></sup> although <a href="/wiki/MicroProse" title="MicroProse">MicroProse</a> and 
+			<a href="/wiki/Legend_Entertainment" title="Legend Entertainment">Legend Entertainment</a> had access to the technology much earlier, licensing it in 1996.
+			<sup id="cite_ref-lightbown_3-1" class="reference"><a href="#cite_note-lightbown-3">[3]</a></sup> According to an interview, Sweeney wrote 90 percent of the code in the engine, including the graphics, tools, and networking.
+			<sup id="cite_ref-gamesindustry.biz_10-0" class="reference"><a href="#cite_note-gamesindustry.biz-10">[10]</a></sup>
+		</p>
+
+		<p>
+			At first, the engine relied completely on <a href="/wiki/Software_rendering" title="Software rendering">software rendering</a>, meaning the graphics calculations were handled by the 
+			<a href="/wiki/Central_processing_unit" title="Central processing unit">CPU</a>.<sup id="cite_ref-foreword_4-1" class="reference"><a href="#cite_note-foreword-4">[4]</a></sup> However,
+			over time, it was able to take advantage of the capabilities provided by dedicated <a href="/wiki/Graphics_cards" class="mw-redirect" title="Graphics cards">graphics cards</a>, focusing 
+			on the <a href="/wiki/Glide_(API)" title="Glide (API)">Glide</a> API, specially designed for <a href="/wiki/3dfx" class="mw-redirect" title="3dfx">3dfx</a> accelerators.
+			<sup id="cite_ref-uhistory_11-0" class="reference"><a href="#cite_note-uhistory-11">[11]</a></sup><sup id="cite_ref-Doom2Dunia3_12-0" class="reference"><a href="#cite_note-Doom2Dunia3-12">[12]</a></sup> 
+			While <a href="/wiki/OpenGL" title="OpenGL">OpenGL</a> and <a href="/wiki/Direct3D" title="Direct3D">Direct3D</a> were supported, they reported a slower performance compared to Glide due to their deficiency
+			in texture management at the time.<sup id="cite_ref-vextreme_13-0" class="reference"><a href="#cite_note-vextreme-13">[13]</a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> 
+			Sweeney particularly criticized the quality of OpenGL drivers for consumer hardware, describing them as "extremely problematic, <a href="/wiki/Software_bug" title="Software bug">buggy</a>, and untested", and
+			labeled the code in the implementation as "scary" as opposed to the simpler and cleaner support for Direct3D.<sup id="cite_ref-vextreme_13-1" class="reference"><a href="#cite_note-vextreme-13">[13]</a></sup> 
+			With regard to audio, Epic employed the Galaxy Sound System, a software created in <a href="/wiki/Assembly_language" title="Assembly language">assembly language</a> that integrated both
+			<a href="/wiki/Environmental_Audio_Extensions" title="Environmental Audio Extensions">EAX</a> and <a href="/wiki/Aureal" class="mw-redirect" title="Aureal">Aureal</a> technologies, and allowed the use of 
+			<a href="/wiki/Tracker_music" class="mw-redirect" title="Tracker music">tracker music</a>, which gave level designers flexibility in how a game soundtrack was played at a specific point in maps.
+			<sup id="cite_ref-brandon_15-0" class="reference"><a href="#cite_note-brandon-15">[15]</a></sup><sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup>
+			<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup> <a href="/wiki/Steve_Polge" title="Steve Polge">Steve Polge</a>, the author of the Reaper Bots plugin for <i>Quake</i>, 
+			programmed the AI system, based on knowledge he had gained at his previous employer <a href="/wiki/IBM" title="IBM">IBM</a> designing <a href="/wiki/Router_protocol" class="mw-redirect" title="Router protocol">
+			router protocols</a>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup><sup id="cite_ref-eurogamer99_19-0" class="reference"><a href="#cite_note-eurogamer99-19">[19]</a></sup> 
+			According to Sweeney, the hardest part of the engine to program was the renderer, as he had to rewrite its core algorithm several times during development, though he found less "glamorous" the infrastructure 
+			connecting all the subsystems.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup><sup id="cite_ref-uhistory_11-1" class="reference"><a href="#cite_note-uhistory-11">[11]</a></sup> 
+			Despite requiring a significant personal effort, he said the engine was his favorite project at Epic, adding: "Writing the first Unreal Engine was a 3.5-year, breadth-first tour of hundreds of unique topics 
+			in software and was incredibly enlightening."<sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup>
+
+		</p>
+
+		<p>
+			Among its features were <a href="/wiki/Collision_detection" title="Collision detection">collision detection</a>, colored lighting, and a limited form of <a href="/wiki/Texture_filtering" title="Texture filtering">
+			texture filtering</a>.<sup id="cite_ref-Doom2Dunia3_12-1" class="reference"><a href="#cite_note-Doom2Dunia3-12">[12]</a></sup> The engine also integrated a <a href="/wiki/Level_editor" class="mw-redirect" title="Level editor">level editor</a>,
+			UnrealEd,<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> that had support for real-time <a href="/wiki/Constructive_solid_geometry" title="Constructive solid geometry">constructive solid geometry</a>
+			operations as early as 1996, allowing mappers to change the level layout on the fly.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup>
+			<sup id="cite_ref-uhistory_11-2" class="reference"><a href="#cite_note-uhistory-11">[11]</a></sup> Even though <i>Unreal</i> was designed to compete with <a href="/wiki/Id_Software" title="Id Software">id Software</a> 
+			(developer of <i><a href="/wiki/Doom_(1993_video_game)" title="Doom (1993 video game)">Doom</a></i> and <i><a href="/wiki/Quake_(video_game)" title="Quake (video game)">Quake</a></i>), 
+			co-founder <a href="/wiki/John_Carmack" title="John Carmack">John Carmack</a> complimented the game for the use of <a href="/wiki/High_color" title="High color">16-bit color</a> and remarked its implementation of 
+			visual effects such as volumetric fog. "I doubt any important game will be designed with <a href="/wiki/8-bit_color" title="8-bit color">8-bit color</a> in mind from now on. Unreal has done an important thing in 
+			pushing toward direct color, and this gives the artists a lot more freedom," he said in an article written by <a href="/wiki/Geoff_Keighley" title="Geoff Keighley">Geoff Keighley</a> for 
+			<i><a href="/wiki/GameSpot" title="GameSpot">GameSpot</a></i>.<sup id="cite_ref-keighley_8-1" class="reference"><a href="#cite_note-keighley-8">[8]</a></sup> "Light blooms [the spheres of light], fog volumes, and 
+			composite skies were steps I was planning on taking, but Epic got there first with Unreal," he said, adding: "The Unreal engine has raised the bar on what action gamers expect from future products. The visual effects
+			first seen in the game will become expected from future games."<sup id="cite_ref-keighley_8-2" class="reference"><a href="#cite_note-keighley-8">[8]</a></sup>
+		</p>
+
+		<p>
+			<i>Unreal</i> was noted for its graphical innovations, but Sweeney recognized in a 1999 interview with <i><a href="/wiki/Eurogamer" title="Eurogamer">Eurogamer</a></i> 
+			that many aspects of the game were unpolished, citing complaints from <a href="/wiki/Gamers" class="mw-redirect" title="Gamers">gamers</a> about its high system requirements
+			and online gameplay issues.<sup id="cite_ref-eurogamer99_19-1" class="reference"><a href="#cite_note-eurogamer99-19">[19]</a></sup> Epic addressed these points during the development of
+			<i><a href="/wiki/Unreal_Tournament" title="Unreal Tournament">Unreal Tournament</a></i> by incorporating several enhancements in the engine intended to optimize performance on low-end machines
+			and improve the networking code, while also refining the <a href="/wiki/Artificial_intelligence" title="Artificial intelligence">artificial intelligence</a> for
+			<a href="/wiki/Video_game_bot" title="Video game bot">bots</a> to display coordination in team-based environments.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup>
+			The game also came with increased image quality with the support for the <a href="/wiki/S3TC" class="mw-redirect" title="S3TC">S3TC</a> compression algorithm, allowing for 24-bit high resolution 
+			textures without compromising performance.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup> In addition to being available on <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a>, 
+			<a href="/wiki/Linux" title="Linux">Linux</a>, <a href="/wiki/Macintosh_operating_systems" title="Macintosh operating systems">Mac</a> and 
+			<a href="/wiki/Unix" title="Unix">Unix</a>,<sup id="cite_ref-nytimes_27-0" class="reference"><a href="#cite_note-nytimes-27">[27]</a></sup> the engine was ported through <i>Unreal Tournament</i> 
+			to the <a href="/wiki/PlayStation_2" title="PlayStation 2">PlayStation 2</a> and, with the help of <a href="/wiki/Sega_Studios_San_Francisco" title="Sega Studios San Francisco">Secret Level</a>, to the 
+			<a href="/wiki/Dreamcast" title="Dreamcast">Dreamcast</a>.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup><sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup>
+
+		</p>
+
+		<p>
+			By late 1999, <i><a href="/wiki/The_New_York_Times" title="The New York Times">The New York Times</a></i> indicated that there had been sixteen external projects using Epic's technology, including 
+			<i><a href="/wiki/Deus_Ex_(video_game)" title="Deus Ex (video game)">Deus Ex</a></i>, <i><a href="/wiki/The_Wheel_of_Time_(video_game)" title="The Wheel of Time (video game)">The Wheel of Time</a></i>, 
+			and <i><a href="/wiki/Duke_Nukem_Forever" title="Duke Nukem Forever">Duke Nukem Forever</a></i>,<sup id="cite_ref-nytimes_27-1" class="reference"><a href="#cite_note-nytimes-27">[27]</a></sup> the latter
+			of which was originally based on the <i><a href="/wiki/Quake_II" title="Quake II">Quake II</a></i> engine.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> Unlike id Software, 
+			whose engine business only offered the source code, Epic provided support for licensees and met with them to discuss improvements to its game development system.
+			<sup id="cite_ref-lightbown_3-2" class="reference"><a href="#cite_note-lightbown-3">[3]</a></sup><sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> While it cost around $3 million
+			to produce and licenses for up to $350,000,<sup id="cite_ref-nytimes_27-2" class="reference"><a href="#cite_note-nytimes-27">[27]</a></sup> Epic gave players the ability to modify its games with the incorporation
+			of UnrealEd and a scripting language called UnrealScript, sparking a community of enthusiasts around a game engine built to be extensible over multiple generations of games.
+			<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup><sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup>
+			<sup id="cite_ref-informitUnreal_34-0" class="reference"><a href="#cite_note-informitUnreal-34">[34]</a></sup><sup id="cite_ref-maximumPC_35-0" class="reference"><a href="#cite_note-maximumPC-35">[35]</a></sup>
+		</p>
+		
+		<hr>
+
+		<h2 id="unity-title"> History Of Unity Game Engine</h2>
+
+		<p>
+			Content for this game engine is coming soon!
+		</p>
+
+		<hr>
+
+		<h2 id="godot-title"> History Of Godot Game Engine</h2>
+
+		<p>
+			Content for this game engine is coming soon!
+		</p>
+
+	</section>
+
+	
+	<footer id="footer">
+		<div class="to-top">
+			<a href="#navigation">Back To Top</a>
+		</div>
+
+		<hr>
+
+		Created by Hashir Ali for CCT360. Website layout adapted from <a href="https://www.unrealengine.com/en-US"> Epic Games' website on Unreal Engine</a>, with text adapted from <a href="https://en.wikipedia.org/wiki/Unreal_Engine"> this Wikipedia article.</a>
+		<p>Images on this website were retreived from unsplash.com, from various artists. <a href="./credits.html">Click here to view full credits.</a> </p>
+	</footer>
+
+</body>
+
+</html>

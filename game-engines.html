@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+	<!-- Created by Harold Sikkema, with inspiration from cbc.ca -->
+	<meta charset="UTF-8">
+	<title>Game Dev: Engines</title>
+	<link type="text/css" href="css/normalize.css" rel="stylesheet">
+	<link type="text/css" href="css/styles.css" rel="stylesheet">
+	<link type="text/css" href="css/engines.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="game-engines">
+	<header>
+		<nav id="navigation" aria-label="homepage navigation button">
+			<a class="title" href="/">
+				<span>
+					Game Development
+				</span>
+
+			</a>
+			
+		<nav id="subNav" aria-label="website navigation">
+			<ul>
+				<li><a href="./history.html"> History </a></li>
+				<li><a href="./game-engines.html">Game Engines</a></li>
+				<li><a href="./credits.html">Credits</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+	<section class="featured" aria-label="page title card">
+		
+		<section class="primary-text">
+			<section class="gem">
+				Discover
+			</section>
+			
+			Find cutting-edge game engines
+		</section>
+
+	</section>
+
+	<nav id="page-nav" aria-label="in-page navigation bar">
+		<ul>
+			<li><a href="#unreal-title"> Unreal Engine 5</a></li>
+			<li><a href="#unity-title"> Unity Game Engine </a></li>
+			<li><a href="#godot-title"> Godot Game Engine </a></li>
+		</ul>
+	</nav>
+
+	<!-- Text here retreived from original wikipedia article https://en.wikipedia.org/wiki/Unreal_Engine-->
+	<section class="content" aria-label="page main content">
+		<h2 id="unreal-title"> Unreal Engine 5</h2>
+		<p>
+			Unreal Engine 5 was revealed on May 13, 2020, supporting all existing systems including the next-generation consoles <a href="/wiki/PlayStation_5" title="PlayStation 5">PlayStation 5</a>
+			and <a href="/wiki/Xbox_Series_X/S" class="mw-redirect" title="Xbox Series X/S">Xbox Series X/S</a>.<sup id="cite_ref-112" class="reference"><a href="#cite_note-112">[112]</a></sup>
+			Work on the engine started about two years prior to its announcement.<sup id="cite_ref-vb_ue5_genchange_113-0" class="reference"><a href="#cite_note-vb_ue5_genchange-113">[113]</a></sup>
+			It was released in early access on May 26, 2021,<sup id="cite_ref-114" class="reference"><a href="#cite_note-114">[114]</a></sup> and formally launched for developers on April 5,
+			2022.<sup id="cite_ref-115" class="reference"><a href="#cite_note-115">[115]</a></sup>
+		</p>
+
+		<p>
+			One of its major features is Nanite, an engine that allows for high-detailed photographic source material to be imported into games.
+			<sup id="cite_ref-gibiz_ue5_116-0" class="reference"><a href="#cite_note-gibiz_ue5-116">[116]</a></sup> The Nanite virtualized geometry technology allows Epic to take advantage of its past
+			acquisition of Quixel, the world's largest <a href="/wiki/Photogrammetry" title="Photogrammetry">photogrammetry</a> library as of 2019. The goal of Unreal Engine 5 was to make it as easy 
+			as possible for developers to create detailed game worlds without having to spend excessive time on creating new detailed assets.
+			<sup id="cite_ref-vb_ue5_genchange_113-1" class="reference"><a href="#cite_note-vb_ue5_genchange-113">[113]</a></sup> Nanite can import nearly any other pre-existing three-dimension representation 
+			of objects and environments, including <a href="/wiki/ZBrush" title="ZBrush">ZBrush</a> and <a href="/wiki/CAD" class="mw-redirect" title="CAD">CAD</a> models, enabling the use of 
+			film-quality assets.<sup id="cite_ref-117" class="reference"><a href="#cite_note-117">[117]</a></sup> Nanite automatically handles the 
+			<a href="/wiki/Level_of_detail_(computer_graphics)" title="Level of detail (computer graphics)">levels of detail</a> (LODs) of these imported objects appropriate to the target platform and draw distance,
+			a task that an artist would have had to perform otherwise.<sup id="cite_ref-arstech_ue5_118-0" class="reference"><a href="#cite_note-arstech_ue5-118">[118]</a></sup> Lumen is another component described
+			as a "fully dynamic global illumination solution that immediately reacts to scene and light changes".
+			<sup id="cite_ref-arstech_ue5_118-1" class="reference"><a href="#cite_note-arstech_ue5-118">[118]</a></sup>
+			<sup id="cite_ref-gibiz_ue5_116-1" class="reference"><a href="#cite_note-gibiz_ue5-116">[116]</a></sup><sup id="cite_ref-119" class="reference"><a href="#cite_note-119">[119]</a></sup>
+			Lumen eliminates the need for artists and developers to craft a <a href="/wiki/Lightmap" title="Lightmap">lightmap</a> for a given scene, but instead calculates light reflections and shadows on the fly,
+			thus allowing for real-time behavior of light sources.<sup id="cite_ref-arstech_ue5_118-2" class="reference"><a href="#cite_note-arstech_ue5-118">[118]</a></sup> Virtual Shadow Maps is another component
+			added in Unreal Engine 5 described as "a new shadow mapping method used to deliver consistent, high-resolution shadowing that works with film-quality assets and large, dynamically lit open worlds".
+			<sup id="cite_ref-120" class="reference"><a href="#cite_note-120">[120]</a></sup> Virtual Shadow Maps differs from the common shadow map implementation in its extremely high resolution, more detailed 
+			shadows, and the lack of shadows popping in and out which can be found in the more common shadow maps technique due to shadow cascades.<sup id="cite_ref-121" class="reference"><a href="#cite_note-121">[121]</a></sup>
+			Additional components include Niagara for fluid and particle dynamics and Chaos for a physics engine.<sup id="cite_ref-vb_ue5_genchange_113-2" class="reference"><a href="#cite_note-vb_ue5_genchange-113">[113]</a></sup>
+		</p>
+
+		<p>
+			With potentially tens of billions of polygons present on a single screen at <a href="/wiki/4K_resolution" title="4K resolution">4K resolution</a>, Epic also developed the Unreal Engine 5 to take advantage of the 
+			upcoming high-speed storage solutions with the next-generation console hardware that will use a mix of RAM and custom <a href="/wiki/Solid-state_drive" title="Solid-state drive">solid-state drives</a>.
+			<sup id="cite_ref-arstech_ue5_118-3" class="reference"><a href="#cite_note-arstech_ue5-118">[118]</a></sup> Epic had worked closely with Sony in optimizing Unreal Engine 5 for the PlayStation 5, with Epic
+			collaborating with Sony on the console's storage architecture.<sup id="cite_ref-122" class="reference"><a href="#cite_note-122">[122]</a></sup>  To demonstrate the ease of creating a detailed world with minimal 
+			effort, the May 2020 reveal of the engine showcased a demo called "Lumen in the Land of Nanite" running on a PlayStation 5 that was built mostly by pulling assets from the Quixel library and using the Nanite, 
+			Lumen, and other Unreal Engine 5 components to create a <a href="/wiki/Photorealistic_rendering" class="mw-redirect" title="Photorealistic rendering">photorealistic</a> cave setting that could be explored.
+			sup id="cite_ref-vb_ue5_genchange_113-3" class="reference"><a href="#cite_note-vb_ue5_genchange-113">[113]</a></sup><sup id="cite_ref-123" class="reference"><a href="#cite_note-123">[123]</a></sup> Epic affirmed 
+			that Unreal Engine 5 would be fully supported on the Xbox Series X as well, but had been focused on the PlayStation 5 during the announcement as a result of their work with Sony in the years prior.
+			<sup id="cite_ref-124" class="reference"><a href="#cite_note-124">[124]</a></sup> Epic plans to use <i><a href="/wiki/Fortnite" title="Fortnite">Fortnite</a></i> as a testbed for Unreal Engine 5 to showcase
+			what the engine can do to the industry,<sup id="cite_ref-vb_ue5_genchange_113-4" class="reference"><a href="#cite_note-vb_ue5_genchange-113">[113]</a></sup><sup id="cite_ref-125" class="reference"><a href="#cite_note-125">[125]</a></sup> 
+			with the game brought to use Unreal Engine 5 in December 2021.<sup id="cite_ref-126" class="reference"><a href="#cite_note-126">[126]</a></sup> <a href="/wiki/Ninja_Theory" title="Ninja Theory">Ninja Theory</a>'s 
+			<i><a href="/wiki/Senua%27s_Saga:_Hellblade_II" class="mw-redirect" title="Senua's Saga: Hellblade II">Senua's Saga: Hellblade II</a></i> will also be one of the first games to use Unreal Engine 5.
+			<sup id="cite_ref-127" class="reference"><a href="#cite_note-127">[127]</a></sup> <i><a href="/wiki/The_Matrix_Awakens" title="The Matrix Awakens">The Matrix Awakens</a></i>, a tie-in experience ahead of the release
+			of <i><a href="/wiki/The_Matrix_Resurrections" title="The Matrix Resurrections">The Matrix Resurrections</a></i>, was developed by Epic to be a further demonstration of Unreal Engine 5 along with other technology 
+			that they had acquired over 2020 and 2021, including their MetaHuman Creator developed and integrated into Unreal Engine 5 with technology from 3Lateral, Cubic Motion, and Quixel.
+			<sup id="cite_ref-128" class="reference"><a href="#cite_note-128">[128]</a></sup>
+			</p>
+
+		<p>
+			Additional features planned for Unreal Engine 5 come from Epic's acquisitions and partnerships. The MetaHuman Creator is a project based on technology from three companies acquired by Epic—3Lateral, Cubic Motion, 
+			and Quixel—to allow developers to quickly create realistic human characters that can then be exported for use within Unreal.<sup id="cite_ref-129" class="reference"><a href="#cite_note-129">[129]</a></sup>   
+			Through partnership with Cesium, Epic plans to offer a free plugin to provide 3D <a href="/wiki/Geospatial_metadata" title="Geospatial metadata">geospatial</a> data for Unreal users, allowing them to recreate 
+			any part of the mapped surface of Earth.<sup id="cite_ref-130" class="reference"><a href="#cite_note-130">[130]</a></sup> Epic will include <a href="/wiki/RealityCapture" title="RealityCapture">RealityCapture</a>, 
+			a product it acquired with its acquisition of Capturing Reality that can generate 3D models of any object from a collection of photographs taken of it from multiple angles,
+			<sup id="cite_ref-131" class="reference"><a href="#cite_note-131">[131]</a></sup> and the various <a href="/wiki/Middleware" title="Middleware">middleware</a> tools offered by <a href="/wiki/RAD_Game_Tools" class="mw-redirect" title="RAD Game Tools">
+			Epic Game Tools</a>.<sup id="cite_ref-132" class="reference"><a href="#cite_note-132">[132]</a></sup>
+		</p>
+
+		<p>
+			Additional features planned for Unreal Engine 5 come from Epic's acquisitions and partnerships. The MetaHuman Creator is a project based on technology from three companies acquired by Epic—3Lateral, Cubic Motion, and Quixel—to allow 
+			developers to quickly create realistic human characters that can then be exported for use within Unreal.<sup id="cite_ref-129" class="reference"><a href="#cite_note-129">[129]</a></sup>   Through partnership with Cesium, Epic plans to
+			offer a free plugin to provide 3D <a href="/wiki/Geospatial_metadata" title="Geospatial metadata">geospatial</a> data for Unreal users, allowing them to recreate any part of the mapped surface of Earth.
+			<sup id="cite_ref-130" class="reference"><a href="#cite_note-130">[130]</a></sup> Epic will include <a href="/wiki/RealityCapture" title="RealityCapture">RealityCapture</a>, a product it acquired with its acquisition of Capturing Reality
+			that can generate 3D models of any object from a collection of photographs taken of it from multiple angles,<sup id="cite_ref-131" class="reference"><a href="#cite_note-131">[131]</a></sup> and the various
+			<a href="/wiki/Middleware" title="Middleware">middleware</a> tools offered by <a href="/wiki/RAD_Game_Tools" class="mw-redirect" title="RAD Game Tools">Epic Game Tools</a>.<sup id="cite_ref-132" class="reference"><a href="#cite_note-132">[132]</a></sup>
+		</p>
+
+		<p>
+			Unreal Engine 5 will retain the current royalty model, with developers returning 5% of gross revenues to Epic Games, though this fee is waived for those that release their games on the
+			<a href="/wiki/Epic_Games_Store" title="Epic Games Store">Epic Games Store</a>. Further, Epic announced alongside Unreal Engine 5 that they will not take any fee from games using any version of Unreal Engine for the first 
+			<span style="white-space: nowrap">US$1 million</span> in gross revenue, retroactive to January 1, 2020.<sup id="cite_ref-133" class="reference"><a href="#cite_note-133">[133]</a></sup>
+		</p>
+
+
+
+		<hr>
+
+		<h2 id="unity-title"> Unity Game Engine</h2>
+
+		<p>
+			Content for this game engine is coming soon!
+		</p>
+
+		<hr>
+		
+		<h2 id="godot-title"> Godot Game Engine</h2>
+
+		<p>
+			Content for this game engine is coming soon!
+		</p>
+
+	</section>
+
+	
+
+	<footer id="footer">
+		<div class="to-top">
+			<a href="#navigation">Back To Top</a>
+		</div>
+
+		<hr>
+
+		Created by Hashir Ali for CCT360. Website layout adapted from <a href="https://www.unrealengine.com/en-US"> Epic Games' website on Unreal Engine</a>, with text adapted from <a href="https://en.wikipedia.org/wiki/Unreal_Engine"> this Wikipedia article.</a>
+		<p>Images on this website were retreived from unsplash.com, from various artists. <a href="./credits.html">Click here to view full credits.</a> </p>
+	</footer>
+
+</body>
+
+</html>
